@@ -1,0 +1,36 @@
+{
+	"name": "transifex-sdk",
+	"version": "1.0.0",
+	"description": "This SDK is used for string translation purposes. It provides command line interface to add, update and download the strings",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/1sanjay1/transifex-sdk.git"
+	},
+	"author": {
+		"name": "Sanjay Yadav",
+		"email": "sanjayucp554@gmail.com",
+		"url": "https://github.com/1sanjay1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx -p typescript tsc && npx prettier --write ./lib",
+		"tsx": "node ./demo/index.js"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"chalk": "^4.1.2",
+		"json-diff": "^0.5.4",
+		"readline-sync": "^1.4.10",
+		"safe-buffer": "^5.2.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.3.5",
+		"@types/node": "^16.7.1",
+		"prettier": "2.3.2"
+	}
+}
