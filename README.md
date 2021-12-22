@@ -152,6 +152,3 @@ transifex.getSupportedLanguages();
 
 ### Author
 [Sanjay Yadav](https://github.com/1sanjay1)
-
-### Version
-```v1.0.0```

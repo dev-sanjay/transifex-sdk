@@ -1,8 +1,9 @@
 {
 	"name": "transifex-sdk",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "This SDK is used for string translation purposes. It provides command line interface to add, update and download the strings",
 	"main": "index.js",
+	"keywords": ["translation", "localization", "download transifex", "update transifex", "add transifex", "languages", "i18n"],
 	"directories": {
 		"lib": "lib"
 	},
